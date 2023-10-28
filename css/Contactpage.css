@@ -1,0 +1,98 @@
+article{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: normal;
+    text-indent: 0;
+    word-spacing: normal;
+    letter-spacing: normal;
+    font-size: 1rem;
+}
+body{background-color:rgb(17, 17, 146);}
+h1{
+    font-size: 40px;
+    width: 390px;
+    position:relative;
+    left: 500px;
+    bottom: 120px;
+    color:white;
+}
+nav ul {background-color: rgb(17, 17, 146);
+    list-style: none;
+    text-align: start;
+    color: white;
+    width: 415px;
+    position:relative;
+    left: 1050px;
+    bottom: 200px;
+    border: white solid 1px;
+} 
+nav li{
+    
+    display: inline-block;
+    
+}
+nav li:hover{
+    background-color: rgb(228, 103, 14);
+}
+form input:nth-child(1){
+    width: 200px;
+    height: 25px;
+    position: relative;
+    bottom: 100px;
+    left: 470px;    
+}
+form input:nth-child(2){
+    width: 200px;
+    height: 25px;
+    position: relative;
+    bottom: 100px;
+    left: 495px;  
+}
+
+div{
+    color: white; 
+    position: relative;
+    bottom: 80px;
+    left: 570px; 
+}
+
+form input:nth-child(4){
+    width: 440px;
+    height: 25px;
+    position: relative;
+    bottom: 120px;
+    left: 470px;  
+}
+form input:nth-child(5){
+    width: 440px;
+    height: 25px;
+    position: relative;
+    bottom: 50px;
+    left: 18px;  
+}
+form textarea{
+    width: 440px;
+    height: 75px;
+    position: relative;
+    top: 70px;
+    right: 433px;
+}
+form input:last-child{
+    background-color: grey;
+    width: 440px;
+    height: 50px;
+    position: relative;
+    top: 90px;
+    left: 470px;
+}
+footer{
+    color: white;
+    position: relative;
+    top: 250px;
+}
+p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }

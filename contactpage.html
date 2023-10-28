@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/Contactpage.css">
+</head>
+<body>
+    <article>
+        <header>
+            <section>
+            
+                <img src="img/oudestadlogo.jpg" alt="logo"
+                width="100"
+                height="100">
+            </section> 
+          <h1>Contact me</h1>  
+          
+        
+        <nav >
+            <ul>
+                <li><a href="index.html" style = "color: white;" > HOME </a></li>
+                <li><a href="detailpage.html" style = "color: white;"> SIGHTS </a></li>
+                <li><a href="detailpage2.html" style = "color: white;"> RESTAURANTS </a></li>
+                <li><a href="detailpage3.html" style = "color: white;"> HOTELS </a></li>
+                <li><a href="detailpage4.html" style = "color: white;"> LIVE </a></li>
+                <li><a href="#" style = "color: rgb(228, 103, 14);"> CONTACT </a></li>
+            </ul>
+        </nav>
+        </header>
+        <form action="index.html" method="post">
+            <input type="text" id="first_name" name="first_name" placeholder="Your first name*" required>
+            <input type="text" id="last_name" name="last_name" placeholder="Your last name*" required>
+            
+            <div class="gender">
+                <label for="gender">Select your gender*</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select>
+            </div>
+            <input type="email" id="email" name="email" placeholder="Your email*" required>
+
+            <input type="tel" id="tel" name="tel" placeholder="Your telephone number">
+
+            <textarea id="message" name="message" placeholder="Your message*" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+        <footer> <small>&copy; Copyright 2023, Shulgat Pavel</small> </footer>
+    </article>
+</body>
+</html>
